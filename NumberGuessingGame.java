@@ -29,7 +29,7 @@ public class NumberGuessingGame {
                 attempts++;
 
                 if (userGuess == targetNumber) {
-                    System.out.println("🎉 Congratulations! You guessed the correct number in " + attempts + " attempts.");
+                    System.out.println(" Congratulations! You guessed the correct number in " + attempts + " attempts.");
                     totalScore += (MAX_ATTEMPTS - attempts + 1);
                     guessedCorrectly = true;
                     break;
