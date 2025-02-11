@@ -43,7 +43,7 @@ public class NumberGuessingGame {
             }
 
             if (!guessedCorrectly) {
-                System.out.println("❌ Sorry! You've used all attempts. The correct number was: " + targetNumber);
+                System.out.println(" Sorry! You've used all attempts. The correct number was: " + targetNumber);
             }
 
             System.out.println("\nYour current score: " + totalScore);
@@ -52,8 +52,8 @@ public class NumberGuessingGame {
             playAgain = response.equals("yes");
         }
 
-        System.out.println("🎯 Game Over! Your final score: " + totalScore);
-        System.out.println("Thank you for playing! 😊");
+        System.out.println(" Game Over! Your final score: " + totalScore);
+        System.out.println("Thank you for playing! ");
         sc.close();
     }
 }
